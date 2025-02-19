@@ -25,7 +25,7 @@ root = tk.Tk()
 root.title("To-Do List")
 root.configure(bg="#00FFFF")  # Light yellow background like sticky notes
 
-task_entry = tk.Entry(root, width=40, font=("Arial", 12), bg="#FFFDE7")
+task_entry = tk.Entry(root, width=40, font=("Arial", 12), fg="black", bg="#FFFDE7")
 task_entry.pack(pady=10)
 
 add_button = tk.Button(root, text="Add Task", command=add_task, bg="#64B5F6", fg="black", font=("Arial", 12, "bold"))
